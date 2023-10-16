@@ -54,17 +54,17 @@ The Online Market Application consists of the following components:
 Copy code
 npm install
 Create a .env file in the root directory and add your MongoDB connection string and port:
-
-env
-Copy code
+```
+## env
+  ```bash
 MONGODB_URI=mongodb://localhost:27017/Marketplace
 PORT=5000
-
+```
 ## Start the server:
 
   ```bash
-Copy code
 npm start
+```
 The server should now be running. You can access it at http://localhost:5000.
 
 ## REST API Documentation
