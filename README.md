@@ -51,10 +51,10 @@ The Online Market Application consists of the following components:
 ## Install the required dependencies:
 
   ```bash
-Copy code
 npm install
-Create a .env file in the root directory and add your MongoDB connection string and port:
 ```
+Create a .env file in the root directory and add your MongoDB connection string and port:
+
 ## env
   ```bash
 MONGODB_URI=mongodb://localhost:27017/Marketplace
