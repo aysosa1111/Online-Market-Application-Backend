@@ -48,9 +48,9 @@ The Online Market Application consists of the following components:
    https://github.com/aysosa1111/Online-Market-Application-Backend.git
 
 
-Install the required dependencies:
+## Install the required dependencies:
 
-bash
+  ```bash
 Copy code
 npm install
 Create a .env file in the root directory and add your MongoDB connection string and port:
@@ -59,37 +59,41 @@ env
 Copy code
 MONGODB_URI=mongodb://localhost:27017/Marketplace
 PORT=5000
-Start the server:
 
-bash
+## Start the server:
+
+  ```bash
 Copy code
 npm start
 The server should now be running. You can access it at http://localhost:5000.
 
-REST API Documentation
-Product Endpoints:
+## REST API Documentation
+## Product Endpoints:
 
 GET /api/products: Get a list of all products.
 GET /api/products/:id: Get details of a specific product by ID.
 POST /api/products: Create a new product.
 PUT /api/products/:id: Update an existing product by ID.
 DELETE /api/products/:id: Delete a product by ID.
-Category Endpoints:
+
+## Category Endpoints:
 
 GET /api/categories: Get a list of all categories.
 GET /api/categories/:id: Get details of a specific category by ID.
 POST /api/categories: Create a new category.
 PUT /api/categories/:id: Update an existing category by ID.
 DELETE /api/categories/:id: Delete a category by ID.
-Testing
+
+## Testing
 You can test the REST APIs using tools like Postman, Thunder Client, or any other HTTP client you prefer. Import the provided collection and run the requests to interact with the API.
 
-Contributing
+## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-Fork the repository.
+## Fork the repository.
 Create a new branch for your feature or bug fix.
 Make your changes and test thoroughly.
 Create a pull request against the main branch of this repository.
-License
+
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
