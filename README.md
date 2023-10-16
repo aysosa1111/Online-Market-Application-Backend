@@ -45,7 +45,7 @@ The Online Market Application consists of the following components:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/aysosa1111/online-market-app.git
+   https://github.com/aysosa1111/Online-Market-Application-Backend.git
 
 
 Install the required dependencies:
